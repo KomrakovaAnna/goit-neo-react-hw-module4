@@ -1,9 +1,9 @@
-import { ThreeDots } from "react-loader-spinner";
+import { RotatingLines } from "react-loader-spinner";
 
 const Loader = () => {
   return (
     <div className="loader">
-      <ThreeDots color="#b43583" height={64} width={64} />
+      <RotatingLines color="#b43583" height={64} width={64} />
     </div>
   );
 };
